@@ -20,6 +20,8 @@ To get started fill out the config.json file
 ```
 
 ### Example with ssh keys
+
+```
 {
   "user": "someusername",
   "host": "my.host.com",
