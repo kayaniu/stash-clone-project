@@ -8,7 +8,8 @@ var childProcess = require('child_process');
 var cwd = process.cwd();
 
 // Config
-var rootUrl = config.https ? 'https' : 'http' + '://' + config.host + '/rest/api/1.0/';
+var rootUrl = config.https ? 'https' : 'http';
+rootUrl += '://' + config.host + '/rest/api/1.0/';
 var endpoints = {
   projects: rootUrl + 'projects'
 };
